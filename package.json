@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "set DEBUG=app, app:* && nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/ddarkCode/rest-api/issues"
   },
-  "homepage": "https://github.com/ddarkCode/rest-api#readme"
+  "homepage": "https://github.com/ddarkCode/rest-api#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "morgan": "^1.10.0"
+  }
 }
